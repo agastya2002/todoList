@@ -5,7 +5,7 @@ import { Link } from "react-router-native";
 
 
 export function Register() {
-    const { setIsLogin, currEmail, setCurrEmail } = useContext(GlobalContext);
+    const { setIsLogin, setCurrEmail } = useContext(GlobalContext);
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
 
